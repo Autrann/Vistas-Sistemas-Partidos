@@ -35,9 +35,9 @@
 </head>
 
 <body>
+    <!-- Banner -->
+    @include('components.banner')
     <div class="container mt-4">
-        <!-- Banner -->
-        @include('components.banner')
 
         <!-- Título -->
         <h1 class="text-center my-4">Sistema de Ingeniería Electoral</h1>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                        <a href="#" class="link-primary">Calcular</a>
+                        <a href="{{ route('nep.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
