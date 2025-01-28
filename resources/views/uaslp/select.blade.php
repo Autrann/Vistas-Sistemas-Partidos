@@ -74,7 +74,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                    <a href="{{ route('ice.index') }}" class="link-primary">Calcular</a>
+                        <a href="{{ route('ice.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                    <a href="{{ route('icp.index') }}" class="link-primary">Calcular</a>
+                        <a href="{{ route('icp.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                    <a href="{{ route('icomp.index') }}" class="link-primary">Calcular</a>
+                        <a href="{{ route('icomp.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -177,7 +177,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                        <a href="#" class="link-primary">Calcular</a>
+                        <a href="{{ route('inymp.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -194,7 +194,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                        <a href="#" class="link-primary">Calcular</a>
+                        <a href="{{ route('inymp.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>

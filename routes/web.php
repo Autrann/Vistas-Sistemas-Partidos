@@ -8,6 +8,8 @@ use App\Http\Controllers\ICEController;
 use App\Http\Controllers\ICPController;
 use App\Http\Controllers\ICompController;
 
+use App\Http\Controllers\INyMPController;
+
 
 Route::get('/', function () {
     return view('uaslp.login');
@@ -37,6 +39,11 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+//Índice de Natalidad Partidista
+Route::get('pages/INP', function () {
+    return view('pages.INP');
+})->name('pages.INP');
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
@@ -50,5 +57,7 @@ Route::get('/ice', [ICEController::class, 'index'])->name('ice.index');
 Route::get('/icp', [ICPController::class, 'index'])->name('icp.index');
 Route::get('/icomp', [ICompController::class, 'index'])->name('icomp.index');
 
+Route::get('/inymp', [INyMPController::class, 'index'])->name('inymp.index');
 
-require __DIR__.'/auth.php';
+
+require __DIR__ . '/auth.php';
