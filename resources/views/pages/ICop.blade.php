@@ -27,24 +27,14 @@
         <div class="mt-4">
             <h1 class="h4">Índice de Concentración Ponderada <span class="text-muted">ICP</span></h1>
             <p class=" text-justify">
-                Para analizar con mayor detenimiento la magnitud de la concentración en el sistema de partidos proponemos un Índice de Concentración Ponderada que permita capturar una medida discriminativa y ofrezca una caracterización promedio de la concentración para cada unidad territorial en lo individual y para el conjunto de estas en lo general. El índice se construye a partir de una clasificación sobre los niveles de concentración de votos:
+                Índice de Competitividad Ponderada permite sintetizar en un solo dato la caracterización global del comportamiento de este indicador en una serie temporal. La estructura de la medición sería exactamente igual que aquella creada para la concentración ponderada, pero tomando como referencia:
             </p>
             <ul>
-                <li>a) baja (menor a 55 por ciento)</li>
-                <li>b) media (entre 56 y 79 por ciento)</li>
-                <li>c) alta (mayor de 80 por ciento).</li>
+                <li>a) 1 a la competitividad alta (menor o igual al 7.5 por ciento)</li>
+                <li>b) 0.5 a la competitividad media (mayor a 7.5 y menor a 15 por ciento)</li>
+                <li>c) 0 a la competitividad baja (mayor o igual al 15 por ciento)</li>
             </ul>
-            <p class=" text-justify">
-                Para ponderar el grado de concentración del voto en una unidad territorial determinada asignamos un valor entre 0 y 1 a cada elección celebrada en el periodo bajo estudio (N), de acuerdo con el nivel de concentración:
-            </p>
-            <ul>
-                <li>a) 0 cuando la concentración es menor a 55 por ciento</li>
-                <li>b) 0.5 cuando la concentración oscila entre 56 y 79 por ciento</li>
-                <li>c) 1 cuando la concentración es superior al 80 por ciento de los votos</li>
-            </ul>
-            <p class="text-justify">
-                Estos valores se suman y posteriormente se dividen entre el número de comicios realizados en un periodo determinado. El resultado final es un valor entre 0 y 1, donde los valores cercanos a 0 indican una menor concentración de votos y los valores cercanos a 1 indican una mayor concentración de los mismos. Este índice permite ofrecer una visión más clara sobre cómo se distribuyen los votos en las distintas elecciones celebradas en un determinado periodo.
-            </p>
+
         </div>
 
         <div class="my-4 d-flex justify-content-start gap-2">
@@ -117,7 +107,7 @@
                         <td class="text-center"></td>
                     </tr>
                     <tr>
-                        <th class="text-center concentracion-column">ICoP</th>
+                        {{-- <th class="text-center concentracion-column">ICoP</th>
                         <td class="text-center concentracion-column">ALTA</td>
                         <td class="text-center concentracion-column">MEDIA</td>
                         <td class="text-center concentracion-column">MEDIA</td>
@@ -126,7 +116,7 @@
                         <td class="text-center"></td>
                         <td class="text-center"></td>
                         <td class="text-center"></td>
-                        <td class="text-center"></td>
+                        <td class="text-center"></td> --}}
                     </tr>
                 </tfoot>
             </table>
