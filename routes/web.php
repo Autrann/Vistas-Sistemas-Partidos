@@ -7,6 +7,9 @@ use App\Http\Controllers\NEPController;
 use App\Http\Controllers\ICEController;
 use App\Http\Controllers\ICPController;
 use App\Http\Controllers\ICompController;
+use App\Http\Controllers\ICopController;
+use App\Http\Controllers\IvaController;
+use App\Http\Controllers\IdFController;
 
 
 Route::get('/', function () {
@@ -33,6 +36,18 @@ Route::get('pages/IComp', function () {
     return view('pages.IComp');
 })->name('pages.IComp');
 
+Route::get('pages/Icop', function () {
+    return view('pages.Icop');
+})->name('pages.Icop');
+
+Route::get('pages/Iva', function () {
+    return view('pages.Iva');
+})->name('pages.Iva');
+
+Route::get('pages/IdF', function () {
+    return view('pages.IdF');
+})->name('pages.IdF');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -49,6 +64,9 @@ Route::get('/nep', [NEPController::class, 'index'])->name('nep.index');
 Route::get('/ice', [ICEController::class, 'index'])->name('ice.index');
 Route::get('/icp', [ICPController::class, 'index'])->name('icp.index');
 Route::get('/icomp', [ICompController::class, 'index'])->name('icomp.index');
+Route::get('/icop', [ICopController::class, 'index'])->name('icop.index');
+Route::get('/iva', [IvaController::class, 'index'])->name('iva.index');
+Route::get('/idf', [IdFController::class, 'index'])->name('idf.index');
 
 
 require __DIR__.'/auth.php';
