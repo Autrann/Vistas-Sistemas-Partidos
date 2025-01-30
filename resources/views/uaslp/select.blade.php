@@ -279,7 +279,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                        <a href="#" class="link-primary">Calcular</a>
+                        <a href="{{ route('insp.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
