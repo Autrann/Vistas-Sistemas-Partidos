@@ -126,7 +126,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                    <a href="{{ route('icop.index') }}" class="link-primary">Calcular</a>
+                        <a href="{{ route('icop.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                    <a href="{{ route('iva.index') }}" class="link-primary">Calcular</a>
+                        <a href="{{ route('iva.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -160,7 +160,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                    <a href="{{ route('idf.index') }}" class="link-primary">Calcular</a>
+                        <a href="{{ route('idf.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -211,7 +211,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                        <a href="#" class="link-primary">Calcular</a>
+                        <a href="{{ route('icoehp.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>

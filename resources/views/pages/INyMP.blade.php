@@ -39,12 +39,11 @@
 
         <div class="row row-cols-2">
             {{-- Botón --}}
-            <div class="d-grid justify-content-end">
+            <div class="d-grid justify-content-end my-4">
                 <button class="btn btn-primary float-right">Agregar Nuevo</button>
             </div>
             <div></div>
         </div>
-        <br>
         <div class="row row-cols-2">
             {{-- tabla --}}
             <div class="table-responsive">

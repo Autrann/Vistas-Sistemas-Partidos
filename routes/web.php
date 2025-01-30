@@ -12,6 +12,7 @@ use App\Http\Controllers\IvaController;
 use App\Http\Controllers\IdFController;
 
 use App\Http\Controllers\INyMPController;
+use App\Http\Controllers\ICoehPController;
 
 
 Route::get('/', function () {
@@ -54,10 +55,35 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-//Índice de Natalidad Partidista
+//Índice de Natalidad y Mortalidad Partidista
+Route::get('pages/INYMP', function () {
+    return view('pages.INYMP');
+})->name('pages.INYMP');
+
+//Índice de Cohesión Partidista
+Route::get('pages/ICoehP', function () {
+    return view('pages.ICoehP');
+})->name('pages.ICoehP');
+
+//Índice de Polarización No Ponerada
+Route::get('pages/IPNP', function () {
+    return view('pages.IPNP');
+})->name('pages.IPNP');
+
+//Índice de Polarización Ponerada
+Route::get('pages/IPP', function () {
+    return view('pages.IPP');
+})->name('pages.IPP');
+
+//Índice de Nacionalización
 Route::get('pages/INP', function () {
     return view('pages.INP');
 })->name('pages.INP');
+
+//Índice de Nacionalización del Sistema de Partidos
+Route::get('pages/INSP', function () {
+    return view('pages.INSP');
+})->name('pages.INSP');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -76,6 +102,10 @@ Route::get('/iva', [IvaController::class, 'index'])->name('iva.index');
 Route::get('/idf', [IdFController::class, 'index'])->name('idf.index');
 
 Route::get('/inymp', [INyMPController::class, 'index'])->name('inymp.index');
-
+Route::get('/icoehp', [ICoehPController::class, 'index'])->name('icoehp.index');
+Route::get('/ipnp', [ICoehPController::class, 'index'])->name('ipnp.index');
+Route::get('/ipp', [ICoehPController::class, 'index'])->name('ipp.index');
+Route::get('/inp', [ICoehPController::class, 'index'])->name('inp.index');
+Route::get('/insp', [ICoehPController::class, 'index'])->name('insp.index');
 
 require __DIR__ . '/auth.php';
