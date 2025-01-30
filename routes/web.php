@@ -13,6 +13,10 @@ use App\Http\Controllers\IdFController;
 
 use App\Http\Controllers\INyMPController;
 use App\Http\Controllers\ICoehPController;
+use App\Http\Controllers\IPNPController;
+use App\Http\Controllers\IPPController;
+use App\Http\Controllers\INPController;
+use App\Http\Controllers\INSPController;
 
 
 Route::get('/', function () {
@@ -103,9 +107,9 @@ Route::get('/idf', [IdFController::class, 'index'])->name('idf.index');
 
 Route::get('/inymp', [INyMPController::class, 'index'])->name('inymp.index');
 Route::get('/icoehp', [ICoehPController::class, 'index'])->name('icoehp.index');
-Route::get('/ipnp', [ICoehPController::class, 'index'])->name('ipnp.index');
-Route::get('/ipp', [ICoehPController::class, 'index'])->name('ipp.index');
-Route::get('/inp', [ICoehPController::class, 'index'])->name('inp.index');
-Route::get('/insp', [ICoehPController::class, 'index'])->name('insp.index');
+Route::get('/ipnp', [IPNPController::class, 'index'])->name('ipnp.index');
+Route::get('/ipp', [IPPController::class, 'index'])->name('ipp.index');
+Route::get('/inp', [INPController::class, 'index'])->name('inp.index');
+Route::get('/insp', [INSPController::class, 'index'])->name('insp.index');
 
 require __DIR__ . '/auth.php';
