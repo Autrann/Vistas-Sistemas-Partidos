@@ -218,26 +218,26 @@
                             </td>
                         </tr>
                     </tbody>
-                    <tfoot class="table-light col-2">
+                    <tfoot class="table-light">
                         <tr>
                             <th class="even-row">No. Partidos</th>
                             <td class="even-row">7</td>
                             <td class="even-row">6</td>
                         </tr>
                         <tr>
-                            <th class="pair-row">Nuevos Partidos</th>
+                            <td class="pair-row" colspan="2">Nuevos Partidos</td>
                             <td class="pair-row">3</td>
                         </tr>
                         <tr>
-                            <th class="even-row">Partidos Desaparecidos</th>
+                            <td class="even-row" colspan="2">Partidos Desaparecidos</td>
                             <td class="even-row">4</td>
                         </tr>
                         <tr>
-                            <th class="pair-row">Magnitud de la cámara</th>
+                            <td class="pair-row" colspan="2">Magnitud de la cámara</td>
                             <td class="pair-row">500</td>
                         </tr>
                         <tr>
-                            <th class="even-row">Fluidez</th>
+                            <td class="even-row" colspan="2">Fluidez</td>
                             <td class="even-row">11.4</td>
                         </tr>
                     </tfoot>
