@@ -74,7 +74,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                    <a href="{{ route('ice.index') }}" class="link-primary">Calcular</a>
+                        <a href="{{ route('ice.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                    <a href="{{ route('icp.index') }}" class="link-primary">Calcular</a>
+                        <a href="{{ route('icp.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                    <a href="{{ route('icomp.index') }}" class="link-primary">Calcular</a>
+                        <a href="{{ route('icomp.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                    <a href="{{ route('icop.index') }}" class="link-primary">Calcular</a>
+                        <a href="{{ route('icop.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                    <a href="{{ route('iva.index') }}" class="link-primary">Calcular</a>
+                        <a href="{{ route('iva.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -160,7 +160,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                    <a href="{{ route('idf.index') }}" class="link-primary">Calcular</a>
+                        <a href="{{ route('idf.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -177,7 +177,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                        <a href="#" class="link-primary">Calcular</a>
+                        <a href="{{ route('inymp.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -194,7 +194,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                        <a href="#" class="link-primary">Calcular</a>
+                        <a href="{{ route('inymp.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -211,7 +211,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                        <a href="#" class="link-primary">Calcular</a>
+                        <a href="{{ route('icoehp.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -227,7 +227,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                        <a href="#" class="link-primary">Calcular</a>
+                        <a href="{{ route('ipnp.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -244,7 +244,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                        <a href="#" class="link-primary">Calcular</a>
+                        <a href="{{ route('ipp.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -262,7 +262,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                        <a href="#" class="link-primary">Calcular</a>
+                        <a href="{{ route('inp.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
@@ -279,7 +279,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="#" class="link-primary">Descripción</a>
-                        <a href="#" class="link-primary">Calcular</a>
+                        <a href="{{ route('insp.index') }}" class="link-primary">Calcular</a>
                     </div>
                 </div>
             </div>
