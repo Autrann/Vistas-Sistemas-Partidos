@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Mi Proyecto</title>
+    <title>Sistema de Ingenieria electoral</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.png') }}">
@@ -51,6 +51,13 @@
 
         .card-footer a:hover {
             text-decoration: underline;
+        }
+
+        .card-body {
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
     </style>
 </head>
@@ -313,9 +320,10 @@
 </body>
 
 <script type="text/javascript">
-
-    $(function () {
-        window.onscroll = function () { scrollFunction() };
+    $(function() {
+        window.onscroll = function() {
+            scrollFunction()
+        };
     });
 
 
