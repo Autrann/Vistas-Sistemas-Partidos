@@ -68,8 +68,7 @@
 
     <div class="container mt-4">
 
-        <!-- Título -->
-        <h1 class="text-center my-4">Sistema de Ingeniería Electoral</h1>
+
 
         <!-- Tarjetas -->
         <div class="row row-cols-1 row-cols-md-3 g-4">
